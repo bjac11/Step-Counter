@@ -33,11 +33,11 @@ function Counter() {
   return (
     <div>
       <button className="stepAdd" onClick={stepAdd}>
-        {"+"}
+        +
       </button>
 
       <button className="stepSub" onClick={stepSub}>
-        {"-"}
+        -
       </button>
 
       <div className="text">
@@ -45,11 +45,11 @@ function Counter() {
 
         <div>
           <button className="countAdd" onClick={countAdd}>
-            {"+"}
+            +
           </button>
 
           <button className="countSub" onClick={countSub}>
-            {"-"}
+            -
           </button>
 
           <div className="text">
